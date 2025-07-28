@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial;
+  margin: 50px;
+  text-align: center;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.emoji-btn {
+  height: 100px;
+}
+
+.move-btn {
+  background-color: transparent;
+  border: 3px solid white;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+ 
+.result {
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.moves{
+  margin: auto auto 20px auto;
+  font-size: 25px;
+  text-align: center;
+}
+
+
+.reset, .auto-play, .yes-btn, .no-btn{
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
