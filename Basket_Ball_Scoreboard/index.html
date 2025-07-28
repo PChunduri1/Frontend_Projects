@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1 id="scoreboard">ScoreBoard</h1>
+        <div class="container">
+            <div id="home">
+                <h1>HOME</h1>
+                <div class="home-points">
+                    <span id ="home-points" class="home-point-text">0</span>
+                </div>
+                <div>
+                    <button onclick="homeTeam(1)" class="point1 text">+1</button>
+                    <button onclick="homeTeam(2)" class="point2 text">+2</button>
+                    <button onclick="homeTeam(3)" class="point3 text">+3</button>
+                    <button class="undo-btn" id="undo-home">Undo Score</button>
+                </div>
+            </div>
+            <div id="guest">
+                <h1>GUEST</h1>
+                <div class="home-points">
+                    <span id="guest-points" class="home-point-text">0</span>
+                </div>
+                <div>
+                    <button  onclick="guestTeam(1)" class="point1 text">+1</button>
+                    <button  onclick="guestTeam(2)" class="point2 text">+2</button>
+                    <button  onclick="guestTeam(3)" class="point3 text">+3</button>
+                    <button  class="undo-btn" id="undo-guest">Undo Score</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button id="resetbtn">New Game</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
